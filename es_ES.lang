@@ -55,4 +55,6 @@ furn_small_landing_pad=Pequeña pista de aterrizaje
 furn_small_landing_pad_desc=Una pista de aterrizaje para que desciendan pequeñas naves espaciales.
 furn_heater=Calentador
 furn_heater_desc=Aumenta la temperatura de la habitación.
+furn_oxygen_compressor=Compresor de Oxígeno
+furn_oxygen_compressor_desc=Recolecta oxígeno cuando hay suficiente en la habitación, y lo libera cuando escasea.
 need_oxygen=Oxígeno {0}
