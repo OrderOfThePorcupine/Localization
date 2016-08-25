@@ -55,4 +55,6 @@ furn_small_landing_pad=Small Landing Pad
 furn_small_landing_pad_desc=A landing pad for small spaceboats to land.
 furn_heater=Heater
 furn_heater_desc=Raises temperature in the room.
+furn_oxygen_compressor=Oxygen Compressor
+furn_oxygen_compressor_desc=Collects oxygen when there is enough in the room. Releases oxygen when there isn't.
 need_oxygen=Oxygen {0}
