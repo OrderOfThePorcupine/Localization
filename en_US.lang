@@ -58,4 +58,6 @@ furn_heater=Heater
 furn_heater_desc=Raises temperature in the room.
 furn_oxygen_compressor=Oxygen Compressor
 furn_oxygen_compressor_desc=Collects oxygen when there is enough in the room. Releases oxygen when there isn't.
+furn_solar_panel=Solar Panel
+furn_solar_panel_desc=Converts light to electricity.
 need_oxygen=Oxygen {0}
