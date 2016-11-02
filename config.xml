@@ -1,0 +1,55 @@
+<config>
+	<languages>
+		<language code="af_ZA"/> 
+		<language code="ar" rtl="true"/> 
+		<language code="bg_BG"/> 
+		<language code="bs-Latn"/> 
+		<language code="ca_ES"/> 
+		<language code="cs_CZ"/> 
+		<language code="da_DK"/> 
+		<language code="de_DE"/> 
+		<language code="el_GR"/> 
+		<language code="en_US" name="English (US)"/>
+		<language code="es_ES"/> 
+		<language code="et_EE"/> 
+		<language code="fa_IR"/> 
+		<language code="fi_FI"/> 
+		<language code="fr_FR"/> 
+		<language code="he_IL" name="עברית" rtl="true"/> 
+		<language code="hi_IN"/> 
+		<language code="hr_HR"/> 
+		<language code="ht"/> 
+		<language code="hu_HU"/> 
+		<language code="id_ID"/> 
+		<language code="it_IT"/> 
+		<language code="ja_JP"/> 
+		<language code="ko_KR"/> 
+		<language code="ku_KU"/> 
+		<language code="lt_LT"/> 
+		<language code="lv_LV"/> 
+		<language code="ms"/> 
+		<language code="mt"/> 
+		<language code="mww"/> 
+		<language code="nb_NO"/> 
+		<language code="nl_NL"/> 
+		<language code="nn_NO"/> 
+		<language code="otq"/> 
+		<language code="pl_PL"/> 
+		<language code="pt_BR"/> 
+		<language code="pt_PT"/> 
+		<language code="ro_RO"/> 
+		<language code="ru_RU"/> 
+		<language code="sk_SK"/> 
+		<language code="sl_Sl"/> 
+		<language code="sr-Cyrl_SP"/> 
+		<language code="sr-Latn_SP"/> 
+		<language code="sv_SE"/> 
+		<language code="sw_KE"/> 
+		<language code="th_TH"/> 
+		<language code="tr_TR"/> 
+		<language code="yua"/> 
+		<language code="yue"/> 
+		<language code="zh-CHS_CN"/> 
+		<language code="zh-CHT_CN"/> 
+	</languages>
+</config>
