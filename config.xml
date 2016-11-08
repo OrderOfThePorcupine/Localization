@@ -1,7 +1,7 @@
 <config>
 	<languages>
 		<language code="af_ZA"/> 
-		<language code="ar" rtl="true"/> 
+		<language code="ar_SA" rtl="true"/> 
 		<language code="bg_BG"/> 
 		<language code="bs-Latn"/> 
 		<language code="ca_ES"/> 
@@ -18,7 +18,7 @@
 		<language code="he_IL" name="עברית" rtl="true"/> 
 		<language code="hi_IN"/> 
 		<language code="hr_HR"/> 
-		<language code="ht"/> 
+		<language code="ht_HT"/> 
 		<language code="hu_HU"/> 
 		<language code="id_ID"/> 
 		<language code="it_IT"/> 
@@ -51,5 +51,9 @@
 		<language code="yue"/> 
 		<language code="zh-CHS_CN"/> 
 		<language code="zh-CHT_CN"/> 
+		<language code="cy_" /> 
+		<language code="fil_" />
+		<language code="fj_" />
+		<language code=""
 	</languages>
 </config>
