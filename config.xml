@@ -33,14 +33,14 @@
 		<language code="nb_NO"/> 
 		<language code="nl_NL"/> 
 		<language code="nn_NO"/> 
-		<language code="otq"/> 
+		<language code="otq_"/> 
 		<language code="pl_PL"/> 
 		<language code="pt_BR"/> 
 		<language code="pt_PT"/> 
 		<language code="ro_RO"/> 
 		<language code="ru_RU"/> 
 		<language code="sk_SK"/> 
-		<language code="sl_Sl"/> 
+		<language code="sl_SI"/> 
 		<language code="sr-Cyrl_SP"/> 
 		<language code="sr-Latn_SP"/> 
 		<language code="sv_SE"/> 
@@ -48,11 +48,18 @@
 		<language code="th_TH"/> 
 		<language code="tr_TR"/> 
 		<language code="yua"/> 
-		<language code="yue"/> 
+		<language code="yue_CN"/> 
 		<language code="zh-CHS_CN"/> 
 		<language code="zh-CHT_CN"/> 
 		<language code="cy_" /> 
 		<language code="fil_" />
 		<language code="fj_" />
+		<language code="mg_"/> 
+		<language code="sm_"/> 
+		<language code="to_"/> 
+		<language code="ty_"/> 
+		<language code="uk_UA"/> 
+		<language code="ur_PK"/> 
+		<language code="vi_VN"/> 
 	</languages>
 </config>
