@@ -5,7 +5,7 @@ This is a repository for the Project Porcupine online localization module.
 * Project Porcupine: A Base-Building Game...in Space!
 * Project Porcupine is a game created by Quill18 as a programing tutorial.
 * The eventual goal is to create a community-developed base building game in a similar style to Dwarf Fortress or RimWorld.
-* The main repository for Project Porcupine is [here](https://github.com/TeamPorcupine/ProjectPorcupine).
+* The main repository for Project Porcupine is [here](https://github.com/OrderOfThePorcupine/ProjectPorcupine).
 
 ## Links
 * [Quill18's Channel](https://www.youtube.com/channel/UCPXOQq7PWh5OdCwEO60Y8jQ)
