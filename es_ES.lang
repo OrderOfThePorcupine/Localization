@@ -1,34 +1,35 @@
+##########Menu Items##########
 menu_apply=Aplicar
 menu_construction=Construcción
+menu_orders=Ordenes
 menu_work=Trabajo
 menu_world=Mundo
 menu_options=Opciones
 menu_settings=Ajustes
-menu_furniture=Mueble
-menu_floor=Piso
+menu_furniture=Muebles
+menu_floor=Pisos
 menu_save=Guardar
 save=Guardar
 load=Cargar
-job_list=Lista de trabas
+job_list=Lista de trabajos
 menu_resume=Continuar
 menu_quests=Misiones
 menu_quit=Salir
 menu_quit_game=Salir del Juego
 menu_quit_to_menu=Menu Principal
 button_menu={0}
-furniture=Mueble: {0}
-deconstruct_furniture=Deconstruir Mueble
-new_world=Nuevo Mundo
-dummy_message_text=Pon un mensaje de texto!!
-button_yes=Si
-button_no=No
-temp_pathfinding_test=Prueba de búsqueda de caminos
-selection_panel_title=Selección Actual
+new_game=Juego Nuevo
+height=Alto
+width=Ancho
+depth=Profundidad
 okay=Ok
 cancel=Cancelar
-filename=Nombre del Archivo
-selection_hp={0}/{1}
-build=Construir {0}
+filename=Nombre de Archivo
+button_yes=Si
+button_no=No
+new_world=Nuevo Mundo
+
+##########Furniture##########
 furn_steel_wall=Pared de Acero
 furn_steel_wall_desc=Una pared hecha de acero.
 furn_door=Puerta
@@ -43,12 +44,12 @@ furn_metal_smelter=Fundidor de metales
 furn_metal_smelter_desc=Funde el hierro crudo creando un metal.
 furn_metal_furnace=Horno de metales
 furn_metal_furnace_desc=Funde diferentes minerales en metales.
-furn_airlock=Esclusa de aire
-furn_airlock_desc=Una esclusa de aire previente que la base se quede sin aire.
+furn_airlock_door=Esclusa de aire
+furn_airlock_door_desc=Previene que el aire salga de la base.
 furn_cloning_pod=Capullo de Clonación
 furn_cloning_pod_desc=Crea un trabajador adicional, y luego se destruye.
-furn_power_generator=Generador eléctrico
-furn_power_generator_desc=Genera electricidad de la nada.
+furn_fission_reactor=Reactor de Fisión
+furn_fission_reactor_desc=Genera energía al chocar atomos entre si.
 furn_power_cell_press=Prensa de células de poder
 furn_power_cell_press_desc=Prensa metal y fundente en células de energia.
 furn_small_landing_pad=Pequeña pista de aterrizaje
@@ -71,25 +72,56 @@ furn_pump_air=Bomba de aire
 furn_pump_air_desc=Bombea aire entre dos habitaciones.
 furn_vent=Ventilación
 furn_vent_desc=AlloPermite que el aire corra entre habitaciones.
+
+##########Utility##########
 util_power_cable=Cable eléctrico
 util_power_cable_desc=Lleva electricidad.
 util_water_pipe=Tubería de agua
 util_water_pipe_desc=Transporta agua.
+
+##########Tiles##########
 tile_Empty=Nada
 tile_Empty_desc=Un espacio vacio.
 tile_Floor=Piso
 tile_Floor_desc=Cumple con los estándares más altos de antideslizantes.
 tile_Ladder=Escalera
 tile_Ladder_desc=Sistema de movimiento espacial de alta tecnología. Efectividad reducida cuando la sostienen brazos debiles.
+
+##########Room Behaviors##########
+roombehavior_airlock=Esclusa de aire
+roombehavior_airlock_desc=Una habitación que previene que el aire escape de la base
+
+##########Inventory##########
+inv_raw_iron=Mineral de Hierro
+inv_raw_iron_desc=Mineral de Hierro, necesita ser procesado antes de ser útil.
+inv_ice=Hielo
+inv_ice_desc=Agua sólida.
+inv_raw_copper=Mineral de Cobre
+inv_raw_copper_desc=Mineral de Cobre, necesita ser procesado antes de ser útil.
+inv_raw_uranium=Mineral de Uranio
+inv_raw_uranium_desc=Mineral de Uranio, necesita ser procesado antes de ser útil.
+inv_steel_plate=Placa de Acero
+inv_steel_plate_desc=Una placa de Acero.
+inv_power_cell=Célula de Emergía
+inv_power_cell_desc=Célula de energía de Uranio.
+inv_copper_plate=Placa de Cobre
+inv_copper_plate_desc=Una placa de Cobre.
+inv_copper_wire=Cable de Cobre
+inv_copper_wire_desc=Cobre estirado hasta formar un cable.
+
+##########Job##########
 prioritize=Priorizar {0}
+cancel_job=Cancelar {0}
 need_oxygen=Oxígeno {0}
 need_sleep=Sueño {0}
 job_no_job_desc=Ninguno
 job_stockpile_moving_desc=Llevando algo a reserva
 job_mining_drone_station_mining_desc=Extrayendo minerales de una máquina
 job_cloning_pod_cloning_desc=Clonando trabajador
-job_power_generator_filling_desc=Llenando generador de eléctrico
+job_fission_reactor_filling_desc=Llenando Reactor de Fisión
 job_ore_mine_mining_desc=Extrayendo minerales de una mina
+
+##########Overlay##########
 overlay_none=Nada
 overlay_oxygen=Oxígeno
 overlay_room=Habitación
@@ -97,6 +129,10 @@ overlay_power=Energía
 overlay_temperature=Temperatura
 overlay_debug_thermal_diffusivity=Debug: Difusividad Térmica
 overlay_debug_heat_generation=Debug: Generación de calor
+overlay_power_network=Red de energía
+overlay_fluid_network=Red de fluidos
+
+##########StatusMessages##########
 message_creating_new_world=Creando un nuevo mundo...
 message_saving_game=Guardando juego...
 message_game_saved=Juego Grabado!
@@ -109,3 +145,88 @@ prompt_save_before_loading_new_game=Te gustaría grabar antes de cargar otro jue
 prompt_overwrite_existing_file=El archivo {0} ya existe! Te gustaría sobreescribirlo?
 prompt_delete_file=Eliminar {0}? No puedes deshacer esta acción
 prompt_confirm_quit=Estás seguro que deseas salir?
+tile_type=Tipo de terreno: {0}
+room_index=Índice de habitación: {0}
+hit_points_fraction=Puntos de vida: {0}/{1}
+hit_points=Puntos de vida: {0}
+not_applicable_shorthand=N/A
+stat_dexterity=Destreza: {0}
+stat_strength=Fuerza: {0}
+generate_asteroids=Generar Asteroides
+time_string={0:h}:{0:mm} {0:tt}
+date_string=Q{0:q} Día {0:d}, {0:y}
+furniture=Mueble: {0}
+deconstruct_furniture=Deconstruir Mueble
+mine_furniture=Mina
+dummy_message_text=Pon un mensaje de texto!!
+temp_pathfinding_test=Prueba de búsqueda de caminos
+selection_panel_title=Selección Actual
+selection_hp={0}/{1}
+build=Counstruir {0}
+
+##########Power##########
+power_grid_status_online=Red de energía: <color={0}>Encendida</color>
+power_grid_status_offline=Red de energía: <color={0}>Apagada</color>
+power_input_status=Entrada de energía: <color={0}>{1}</color>
+power_output_status=Salida de energíia: <color={0}>{1}</color>
+power_accumulated_fraction=Energía acumulada: {0} / {1}
+call_trade_ship_test=Llamar nave comercial
+flip_direction=Cambiar direccion
+open_vent=Abrir Ventilación
+close_vent=Cerrar Ventilación
+mine_ore=Extraer minerales
+toggle_pressure_lock=Activar/Desactivar cierre de presión
+set_filter=Filtrar%
+change_to_raw_iron=Cambiar a Mineral de Hierro
+change_to_raw_copper=Cambiar a Mineral de Cobre
+deconstruct=Deconstruir {0}
+
+##########Settings##########
+movement=Movimiento de la cámara
+zoom_lerp_time=Demora en el zoom de la cámara
+zoom_sensitivity=Sensitividad del Zoom
+confirm_settings_menu_close=Está segur que desea cerrar el menú y cancelar todos los cambios?
+general=General
+sound=Sonido
+video=Video
+developer=Desarrollador
+autosave=Autoguardar
+autosave_every=Autoguardar cada:
+max_autosaves=Máxima cantidad de Autoguardados:
+localization=Localización
+language=Idioma:
+auto_update_language=Mantener Actualizado:
+volume=Volumen
+master_volume=Maestro:
+music_volume=Musica:
+game_volume=Juego:
+alert_volume=Alertas:
+ui_volume=Interfaz:
+advanced=Advanzado
+sound_device=Dispositivo:
+locational_sound=Sonido de locación:
+ui_skin=Piel de la Interfaz:
+quality=Calidad:
+vsync=V-Sync:
+soft_particles=Partículas:
+shadows=Sombras:
+anisotropic_filtering=Filtro Anisotropico:
+aa=AA:
+window=Ventana:
+fullscreen=Pantalla completa:
+resolution=Resolución:
+scroll_sensitivity=Sensitividad al arrastrar:
+font_size=Tamaño de fuente:
+console=Consola
+utilities=Utilidades
+time_stamps=Horario en Consola:
+console_enable=Activar Consola:
+developer_console=Consola de Desarrollo
+performance_hud=Performance HUD:
+quality=Calidad:
+logging_level=Logging Level:
+window_setting=Configuración de Ventana:
+developer_mode=Modo de Desarrollador:
+master_volume=Volumen Maestro:
+music_volume=volumen de la Música:
+ui_scale=Escala de Interfaz:
